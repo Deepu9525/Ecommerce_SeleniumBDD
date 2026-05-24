@@ -1,0 +1,2183 @@
+2026-05-15 15:32:47 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@27f74733
+2026-05-15 15:32:47 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 15:32:55 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 15:32:55 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 15:32:55 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 15:32:55 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 15:32:57 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 15:32:59 INFO  pageObjects.ProductsPage - clicking on first product Add Cart
+2026-05-15 15:33:09 WARN  pageObjects.ProductsPage - Click failed for locator: By.cssSelector: [class='product-overlay'] [data-product-id='1'] - Falling back to JS click
+2026-05-15 15:33:20 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 15:33:20 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 15:33:48 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@27f74733
+2026-05-15 15:33:48 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 15:33:57 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 15:33:57 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 15:33:57 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 15:33:57 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 15:33:59 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 15:34:01 INFO  pageObjects.ProductsPage - clicking on first product Add Cart
+2026-05-15 15:34:11 WARN  pageObjects.ProductsPage - Click failed for locator: By.cssSelector: [class='product-overlay'] [data-product-id='1'] - Falling back to JS click
+2026-05-15 15:34:13 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-15 15:34:15 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-15 15:34:16 INFO  pageObjects.ProductsPage - Clicking on second product add cart
+2026-05-15 15:34:26 WARN  pageObjects.ProductsPage - Click failed for locator: By.xpath: //div[@class='product-overlay']//a[@data-product-id='2'] - Falling back to JS click
+2026-05-15 15:34:47 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@27f74733
+2026-05-15 15:34:47 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 15:35:26 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 15:35:26 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 15:35:26 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 15:35:26 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 15:35:26 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 15:35:38 INFO  pageObjects.ProductsPage - clicking on first product Add Cart
+2026-05-15 15:35:38 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-15 15:35:39 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-15 15:35:40 INFO  pageObjects.ProductsPage - Clicking on second product add cart
+2026-05-15 15:35:40 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 15:35:42 INFO  pageObjects.CartPage - Verifying both products are added
+2026-05-15 15:35:42 INFO  pageObjects.CartPage - Total products in cart: 2
+2026-05-15 15:35:42 INFO  pageObjects.CartPage - Verifying prices quantity and total
+2026-05-15 15:35:43 INFO  pageObjects.CartPage - Expected Total: 500
+2026-05-15 15:35:43 INFO  pageObjects.CartPage - Actual Total: 500
+2026-05-15 15:35:43 INFO  pageObjects.CartPage - Expected Total: 400
+2026-05-15 15:35:43 INFO  pageObjects.CartPage - Actual Total: 400
+2026-05-15 15:35:43 INFO  stepDefinitions.Hooks - Test Passed:Verify Add Products in Cart
+2026-05-15 15:35:43 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 15:46:37 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@27f74733
+2026-05-15 15:46:37 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 15:46:47 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 15:46:47 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 15:46:47 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 15:46:47 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 15:46:47 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 15:46:53 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 15:46:53 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 15:47:14 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@27f74733
+2026-05-15 15:47:14 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 15:47:54 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 15:47:54 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 15:47:54 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 15:47:54 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 15:47:54 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 15:48:06 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 15:48:06 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 15:48:22 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@27f74733
+2026-05-15 15:48:22 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 15:48:31 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 15:48:31 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 15:48:32 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 15:48:32 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 15:48:43 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 15:48:44 INFO  pageObjects.ProductsPage - clicking on first product Add Cart
+2026-05-15 15:48:44 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-15 15:48:46 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-15 15:48:47 INFO  pageObjects.ProductsPage - Clicking on second product add cart
+2026-05-15 15:48:47 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Verifying both products are added
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Total products in cart: 2
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Verifying prices quantity and total
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Product 1
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Price: 500
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Expected Total: 500
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Actual Total: 500
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Product 2
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Price: 400
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Expected Total: 400
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Actual Total: 400
+2026-05-15 15:48:49 INFO  pageObjects.CartPage - Prices, quantity and total verified successfully
+2026-05-15 15:48:49 INFO  stepDefinitions.Hooks - Test Passed:Verify Add Products in Cart
+2026-05-15 15:48:49 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 16:07:34 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@27f74733
+2026-05-15 16:07:34 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 16:07:43 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 16:07:43 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 16:07:43 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 16:07:43 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 16:07:44 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 16:07:57 INFO  pageObjects.ProductsPage - clicking on first product Add Cart
+2026-05-15 16:07:58 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-15 16:07:59 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-15 16:08:00 INFO  pageObjects.ProductsPage - Clicking on second product add cart
+2026-05-15 16:08:00 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Verifying both products are added
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Total products in cart: 2
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Verifying prices quantity and total
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Product Items: https://automationexercise.com/get_product_picture/1
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Product Names: Blue Top
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Price: 500
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Expected Total: 500
+2026-05-15 16:08:03 INFO  pageObjects.CartPage - Actual Total: 500
+2026-05-15 16:08:04 INFO  pageObjects.CartPage - Product Items: https://automationexercise.com/get_product_picture/2
+2026-05-15 16:08:04 INFO  pageObjects.CartPage - Product Names: Men Tshirt
+2026-05-15 16:08:04 INFO  pageObjects.CartPage - Price: 400
+2026-05-15 16:08:04 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-15 16:08:04 INFO  pageObjects.CartPage - Expected Total: 400
+2026-05-15 16:08:04 INFO  pageObjects.CartPage - Actual Total: 400
+2026-05-15 16:08:04 INFO  pageObjects.CartPage - Prices, quantity and total verified successfully
+2026-05-15 16:08:04 INFO  stepDefinitions.Hooks - Test Passed:Verify Add Products in Cart
+2026-05-15 16:08:04 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:05:16 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@1bcf67e8
+2026-05-15 18:05:16 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:05:28 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:05:28 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:05:29 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 18:05:29 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 18:05:29 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 18:05:29 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 18:05:29 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 18:05:29 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 18:05:29 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 18:05:34 ERROR stepDefinitions.Hooks - Test Failed: Verify all Products and product detail page
+2026-05-15 18:05:34 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:05:35 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3d615b2e
+2026-05-15 18:05:35 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:05:41 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:05:41 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:05:41 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 18:05:41 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 18:05:46 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 18:05:46 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 18:05:50 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 18:05:50 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 18:05:50 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 18:05:50 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 18:05:50 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 18:05:50 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 18:05:50 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:05:50 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@ab4aa5e
+2026-05-15 18:05:50 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:05:54 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:05:54 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:05:54 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 18:05:54 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 18:05:57 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 18:05:57 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 18:05:59 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 18:05:59 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 18:05:59 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 18:06:00 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 18:06:00 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 18:06:00 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 18:06:00 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 18:06:00 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:06:00 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7e3d2ebd
+2026-05-15 18:06:00 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:06:04 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:06:04 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:06:04 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 18:06:04 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 18:06:08 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 18:06:08 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 18:06:10 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 18:06:10 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 18:06:10 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 18:06:11 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 18:06:11 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 18:06:11 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 18:06:11 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 18:06:11 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:06:11 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@14457a95
+2026-05-15 18:06:11 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:06:40 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:06:40 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:06:40 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 18:06:40 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 18:06:40 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 18:06:46 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-15 18:06:56 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 18:06:56 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:06:56 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@16df9bde
+2026-05-15 18:06:56 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:07:04 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:07:04 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:07:04 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:07:05 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/#google_vignette
+2026-05-15 18:07:05 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:07:05 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:07:51 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:07:51 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:07:58 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:07:58 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:07:58 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:08:00 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/#google_vignette
+2026-05-15 18:08:00 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:08:00 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:08:47 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:08:47 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:08:52 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:08:52 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:08:52 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:08:55 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:08:55 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:19:35 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:19:35 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:19:42 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:19:42 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:19:42 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:19:44 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/
+2026-05-15 18:19:45 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:19:45 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:20:03 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:20:03 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:20:10 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:20:10 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:20:10 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:20:12 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/
+2026-05-15 18:20:12 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:20:12 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:20:29 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:20:29 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:20:56 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:20:56 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:20:56 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:20:57 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/#google_vignette
+2026-05-15 18:20:58 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:20:58 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:26:54 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:26:54 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:27:02 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:27:02 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:27:02 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:27:03 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/
+2026-05-15 18:27:04 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:27:04 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:27:22 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:27:22 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:27:29 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:27:29 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:27:29 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:27:31 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/
+2026-05-15 18:27:31 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:27:32 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:31:15 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:31:15 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:31:24 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:31:24 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:31:25 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:31:25 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:31:25 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 18:38:16 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 18:38:16 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 18:38:23 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 18:38:23 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 18:38:23 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 18:38:25 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/#google_vignette
+2026-05-15 18:38:26 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-15 18:38:26 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:17:52 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@48c4245d
+2026-05-15 19:17:52 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:18:18 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:18:18 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:18:18 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 19:18:21 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-15 19:18:21 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:18:21 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:18:21 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:18:21 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:18:21 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:18:21 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:18:21 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-15 19:18:22 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-15 19:18:22 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 19:18:24 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-15 19:18:24 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:31:23 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3df978b9
+2026-05-15 19:31:23 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:31:52 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:31:52 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:31:53 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 19:31:57 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-15 19:31:57 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:31:57 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:31:58 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:31:58 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:31:58 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:31:58 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:31:58 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-15 19:31:58 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-15 19:31:58 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 19:32:02 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-15 19:32:02 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-15 19:32:03 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-15 19:32:03 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-15 19:32:03 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-15 19:32:03 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:32:55 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 19:32:55 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:33:04 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:33:04 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:33:04 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:33:04 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:33:05 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:33:05 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:33:05 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 19:33:05 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 19:33:05 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 19:33:07 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 19:33:07 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:33:07 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:33:07 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:33:07 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:33:08 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:33:08 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:33:08 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 19:33:08 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:33:08 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@30c19bff
+2026-05-15 19:33:08 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:33:13 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:33:13 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:33:13 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:33:13 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:33:37 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:33:37 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:33:39 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:33:39 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:33:39 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:33:40 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 19:33:40 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 19:33:40 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:33:40 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:33:40 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@89caf47
+2026-05-15 19:33:40 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:33:47 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:33:47 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:33:47 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:33:47 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:33:47 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:33:47 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:33:59 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:33:59 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:33:59 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 19:34:00 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 19:34:00 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 19:34:00 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 19:34:00 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:34:00 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:34:00 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@2ce524d2
+2026-05-15 19:34:00 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:34:09 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:34:09 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:34:09 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:34:09 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:34:09 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:34:09 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:34:22 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 19:34:22 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 19:34:22 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 19:34:22 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 19:34:23 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 19:34:23 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 19:34:23 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 19:34:23 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:34:23 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:34:23 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7f51f588
+2026-05-15 19:34:23 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:34:32 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:34:32 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:34:32 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:34:32 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:34:58 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 19:34:59 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-15 19:35:09 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 19:35:09 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:35:10 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@65db548
+2026-05-15 19:35:10 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:35:15 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:35:15 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:35:15 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 19:35:18 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-15 19:35:18 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:35:18 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:35:18 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:35:18 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:35:18 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:35:18 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:35:18 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-15 19:35:18 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-15 19:35:19 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 19:35:21 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-15 19:35:21 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-15 19:35:21 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-15 19:35:21 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-15 19:35:21 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-15 19:35:21 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:35:41 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 19:35:41 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:35:49 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:35:49 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:35:49 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:35:49 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:35:49 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:35:49 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:35:49 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 19:35:49 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 19:35:49 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 19:35:52 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 19:35:52 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:35:52 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:35:52 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:35:52 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:35:52 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:35:52 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:35:53 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 19:35:53 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:35:53 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3d2f3dcb
+2026-05-15 19:35:53 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:36:01 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:36:01 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:36:01 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:36:01 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:36:01 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:36:01 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:36:17 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:36:17 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:36:17 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:36:18 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 19:36:18 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 19:36:18 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:36:18 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:36:18 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@18e4674d
+2026-05-15 19:36:18 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:36:25 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:36:25 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:36:25 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:36:25 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:36:25 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:36:25 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:36:34 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:36:34 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:36:34 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 19:36:35 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 19:36:35 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 19:36:35 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 19:36:35 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:36:35 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:36:35 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@6e3dd5ce
+2026-05-15 19:36:35 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:36:42 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:36:42 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:36:42 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:36:42 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:36:54 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:36:54 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:36:59 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 19:36:59 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 19:36:59 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 19:36:59 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 19:36:59 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:36:59 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:37:00 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@6bd92538
+2026-05-15 19:37:00 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:37:07 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:37:07 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:37:07 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:37:07 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:37:08 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 19:37:13 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-15 19:37:23 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 19:37:23 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:37:24 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@55d99dc3
+2026-05-15 19:37:24 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:37:29 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:37:29 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:37:29 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 19:37:31 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-15 19:37:31 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:37:31 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:37:31 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:37:32 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:37:32 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:37:32 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:37:32 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-15 19:37:32 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-15 19:37:32 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 19:37:34 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-15 19:37:34 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-15 19:37:34 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-15 19:37:34 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-15 19:37:34 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-15 19:37:34 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:37:53 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 19:37:53 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:38:04 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:38:04 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:38:04 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:38:04 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:38:04 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:38:04 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:38:04 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 19:38:04 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 19:38:04 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 19:38:07 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 19:38:07 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:38:07 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:38:07 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:38:07 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:38:07 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:38:07 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:38:07 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 19:38:07 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:38:08 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3d2f3dcb
+2026-05-15 19:38:08 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:38:17 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:38:17 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:38:17 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:38:17 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:38:17 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:38:17 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:38:27 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:38:27 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:38:27 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:38:27 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 19:38:27 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 19:38:27 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:38:27 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:38:27 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@35145874
+2026-05-15 19:38:27 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:38:34 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:38:34 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:38:34 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:38:34 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:38:34 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:38:34 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:39:01 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:39:01 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:39:01 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 19:39:02 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 19:39:02 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 19:39:02 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 19:39:02 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:39:02 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:39:02 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@27e44e9c
+2026-05-15 19:39:02 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:39:08 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:39:08 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:39:08 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:39:08 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:39:08 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:39:08 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:39:35 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:39:35 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:39:35 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 19:39:36 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 19:39:36 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 19:39:36 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 19:39:36 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:39:36 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:39:36 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@61911947
+2026-05-15 19:39:36 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:39:44 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:39:44 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:39:44 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:39:44 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:39:45 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 19:39:56 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-15 19:40:07 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 19:40:07 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:40:07 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3cad24ae
+2026-05-15 19:40:07 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:40:29 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:40:29 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:40:29 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 19:40:31 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-15 19:40:31 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:40:31 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:40:31 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:40:31 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:40:31 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:40:31 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:40:32 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-15 19:40:32 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-15 19:40:32 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 19:40:35 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-15 19:40:35 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-15 19:40:35 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-15 19:40:35 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-15 19:40:35 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-15 19:40:35 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:48:39 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 19:48:39 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:48:48 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:48:48 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:48:48 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:48:48 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:49:08 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:49:08 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:49:08 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 19:49:08 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 19:49:09 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 19:49:12 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 19:49:12 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:49:12 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:49:12 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:49:12 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:49:12 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:49:12 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:49:12 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 19:49:12 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:49:13 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3d2f3dcb
+2026-05-15 19:49:13 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:49:24 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:49:24 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:49:24 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:49:24 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:49:24 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:49:24 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:49:32 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:49:32 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:49:32 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:49:32 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 19:49:32 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 19:49:32 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:49:32 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:49:33 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@4a642e4b
+2026-05-15 19:49:33 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:49:37 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:49:37 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:49:37 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:49:37 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:49:38 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:49:38 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:49:46 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:49:46 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 19:49:47 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 19:49:47 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 19:49:47 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 19:49:47 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:49:47 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:49:49 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@54ccb3
+2026-05-15 19:49:49 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:49:55 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:49:55 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:49:55 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:49:55 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:49:55 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 19:49:55 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 19:51:04 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 19:51:04 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 19:51:05 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 19:51:05 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 19:51:05 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 19:51:05 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 19:51:05 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:51:05 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@66b0e207
+2026-05-15 19:51:05 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:51:33 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:51:33 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:51:33 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 19:51:33 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 19:51:33 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 19:51:43 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 19:51:43 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 19:51:43 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@11ad095c
+2026-05-15 19:51:43 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 19:51:49 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 19:51:49 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 19:51:49 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 19:51:51 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-15 19:51:51 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 19:51:54 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-15 19:51:54 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-15 19:51:54 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-15 19:51:54 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-15 19:51:54 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-15 19:51:54 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:00:26 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 20:00:26 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:00:34 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:00:34 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:00:34 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:00:34 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:00:34 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:00:34 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:00:34 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 20:00:34 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 20:00:35 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 20:00:37 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 20:00:37 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 20:00:37 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 20:00:38 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 20:00:38 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 20:00:38 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 20:00:38 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 20:00:38 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 20:00:38 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:00:38 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@30c19bff
+2026-05-15 20:00:38 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:00:49 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:00:49 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:00:49 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:00:49 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:00:49 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:00:49 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:01:04 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:01:04 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:01:04 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:01:04 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:01:04 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 20:01:04 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:01:04 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:01:05 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@77524ca7
+2026-05-15 20:01:05 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:01:07 ERROR stepDefinitions.Hooks - Test Failed: Verify Search Product functionality
+2026-05-15 20:01:07 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@604d28c6
+2026-05-15 20:01:07 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:01:14 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:01:14 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:01:14 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:01:14 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:01:14 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:01:14 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:01:22 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:01:22 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 20:01:22 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 20:01:22 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 20:01:22 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:01:22 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:01:23 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7cf8f45a
+2026-05-15 20:01:23 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:01:29 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:01:29 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:01:29 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:01:29 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:01:29 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 20:01:39 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 20:01:39 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:01:39 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@32a033b6
+2026-05-15 20:01:39 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:02:19 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:02:19 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:02:19 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 20:02:22 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-15 20:02:22 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 20:02:22 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 20:02:22 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 20:02:22 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 20:02:22 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 20:02:22 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 20:02:22 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-15 20:02:23 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-15 20:02:23 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 20:02:26 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-15 20:02:26 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-15 20:02:26 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-15 20:02:26 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-15 20:02:26 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-15 20:02:26 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:02:50 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 20:02:50 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:03:00 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:03:00 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:03:00 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:03:00 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:03:01 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:03:01 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:03:01 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 20:03:01 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 20:03:01 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 20:03:05 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 20:03:05 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 20:03:05 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 20:03:05 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 20:03:05 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 20:03:05 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 20:03:05 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 20:03:05 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 20:03:05 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:03:05 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@30c19bff
+2026-05-15 20:03:05 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:03:11 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:03:11 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:03:11 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:03:11 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:03:11 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:03:11 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:03:26 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:03:26 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:03:26 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:03:26 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:03:26 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 20:03:26 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:03:26 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:03:27 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3a0aaaf0
+2026-05-15 20:03:27 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:03:34 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:03:34 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:03:34 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:03:34 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:03:35 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:03:35 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:03:53 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:03:53 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:03:53 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 20:03:54 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 20:03:54 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 20:03:54 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 20:03:54 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:03:54 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:03:54 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@1fe8f5e8
+2026-05-15 20:03:54 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:04:17 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:04:17 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:04:17 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:04:17 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:04:17 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:04:17 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:04:36 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:04:36 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 20:04:36 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 20:04:36 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 20:04:36 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:04:36 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:04:37 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@32da97fd
+2026-05-15 20:04:37 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:04:43 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:04:43 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:04:43 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:04:43 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:04:43 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 20:04:49 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 20:04:49 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:04:50 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@395a573c
+2026-05-15 20:04:50 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:05:03 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:05:03 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:05:03 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-15 20:05:06 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-15 20:05:06 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 20:05:06 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 20:05:06 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 20:05:07 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 20:05:07 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 20:05:07 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 20:05:07 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-15 20:05:07 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-15 20:05:07 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-15 20:05:11 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-15 20:05:11 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-15 20:05:11 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-15 20:05:11 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-15 20:05:11 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-15 20:05:11 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:18:16 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 20:18:16 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:18:37 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:18:37 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:18:37 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:18:37 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:18:37 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:18:37 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:18:38 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 20:18:38 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 20:18:38 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 20:18:39 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 20:18:39 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 20:18:39 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 20:18:39 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 20:18:39 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 20:18:39 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 20:18:39 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 20:18:39 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 20:18:39 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:18:40 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7a682d35
+2026-05-15 20:18:40 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:18:47 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:18:47 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:18:47 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:18:47 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:18:47 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:18:47 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:18:54 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:18:54 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:18:54 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:18:54 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:18:54 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 20:18:54 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:18:54 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:18:55 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@12d40609
+2026-05-15 20:18:55 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:19:08 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:19:08 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:19:09 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:19:09 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:19:21 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:19:21 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:19:29 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 20:19:29 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 20:19:29 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 20:19:29 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 20:19:29 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:19:29 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:19:30 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7f8a9454
+2026-05-15 20:19:30 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:19:36 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:19:36 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:19:36 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:19:36 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:19:36 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:19:36 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:19:47 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:19:47 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:19:47 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:19:48 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 20:19:48 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 20:19:48 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 20:19:48 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:19:48 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:19:48 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@6169be09
+2026-05-15 20:19:48 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:20:04 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:20:04 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:20:04 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:20:04 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:20:04 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 20:20:04 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-15 20:20:05 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-15 20:20:26 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-15 20:21:09 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 20:21:09 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:21:18 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:21:18 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:21:18 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:21:18 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:21:18 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:21:18 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:21:18 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 20:21:18 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 20:21:18 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 20:21:20 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 20:21:20 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 20:21:20 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 20:21:20 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 20:21:20 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 20:21:20 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 20:21:20 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 20:21:20 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 20:21:20 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:21:21 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3a4aadf8
+2026-05-15 20:21:21 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:21:25 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:21:25 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:21:25 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:21:25 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:21:29 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:21:29 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:21:31 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:21:31 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:21:31 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:21:32 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:21:32 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 20:21:32 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:21:32 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:21:32 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@4a89ef44
+2026-05-15 20:21:32 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:21:36 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:21:36 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:21:36 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:21:36 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:21:41 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:21:41 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:22:26 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 20:22:26 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 20:22:26 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 20:22:26 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 20:22:26 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:22:26 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:22:27 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@740a0d5e
+2026-05-15 20:22:27 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:22:33 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:22:33 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:22:33 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:22:33 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:22:37 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:22:37 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:23:22 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:23:22 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 20:23:22 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 20:23:22 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 20:23:22 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:23:22 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:23:23 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3b4ef59f
+2026-05-15 20:23:23 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:23:30 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:23:30 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:23:30 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:23:30 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:23:30 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 20:23:30 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-15 20:23:30 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-15 20:23:36 WARN  pageObjects.ProductsPage - Click failed for locator: By.cssSelector: [class='btn btn-success close-modal btn-block'] - Falling back to JS click
+2026-05-15 20:23:46 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 20:23:46 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:23:47 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@f03ee8f
+2026-05-15 20:23:47 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:23:51 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:23:51 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:24:09 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-15 20:24:09 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:24:29 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:24:29 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:24:29 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:24:29 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:24:29 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:24:29 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:24:29 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-15 20:24:29 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-15 20:24:29 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-15 20:24:31 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-15 20:24:31 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-15 20:24:31 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-15 20:24:32 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-15 20:24:32 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-15 20:24:32 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-15 20:24:32 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-15 20:24:32 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-15 20:24:32 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:24:32 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3a4aadf8
+2026-05-15 20:24:32 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:24:51 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:24:51 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:24:51 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:24:51 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:24:51 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:24:51 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:26:01 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:26:01 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:26:01 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:26:01 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:26:01 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-15 20:26:01 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:26:01 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:26:01 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@25a1a012
+2026-05-15 20:26:01 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:26:12 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:26:12 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:26:12 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:26:12 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:26:21 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:26:21 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:26:26 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-15 20:26:26 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-15 20:26:26 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-15 20:26:26 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-15 20:26:26 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:26:26 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:26:27 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@2dff7085
+2026-05-15 20:26:27 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:26:30 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:26:30 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:26:30 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:26:30 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:26:34 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-15 20:26:34 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-15 20:26:38 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-15 20:26:38 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-15 20:26:38 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-15 20:26:38 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-15 20:26:38 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-15 20:26:38 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:26:39 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@6842c101
+2026-05-15 20:26:39 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:26:52 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:26:52 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-15 20:26:52 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-15 20:26:52 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-15 20:26:52 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-15 20:26:52 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-15 20:26:53 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-15 20:26:55 WARN  pageObjects.ProductsPage - Click failed for locator: By.cssSelector: [class='btn btn-success close-modal btn-block'] - Falling back to JS click
+2026-05-15 20:26:55 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-15 20:27:16 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-15 20:27:16 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-15 20:27:16 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@664db2ca
+2026-05-15 20:27:16 INFO  stepDefinitions.Hooks - Test started
+2026-05-15 20:27:20 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-15 20:27:20 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 19:56:00 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@c65a5ef
+2026-05-22 19:56:00 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 19:56:13 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 19:56:13 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 19:56:13 INFO  stepDefinitions.HomePageSteps - Clicking on Signup
+2026-05-22 19:56:13 INFO  pageObjects.HomePage - Clicking on Signup
+2026-05-22 19:56:16 INFO  pageObjects.SignupLoginPage - Entering Name and Email for Signup
+2026-05-22 19:56:16 INFO  pageObjects.SignupLoginPage - Clicking on Signup button 
+2026-05-22 19:56:18 INFO  pageObjects.RegistrationFormPage - Selecting title: Mr
+2026-05-22 19:56:18 INFO  pageObjects.RegistrationFormPage - Enter password
+2026-05-22 19:56:19 INFO  pageObjects.RegistrationFormPage - selecting Dob: 
+2026-05-22 19:56:19 INFO  pageObjects.RegistrationFormPage - selecting Dob: 
+2026-05-22 19:56:19 INFO  pageObjects.RegistrationFormPage - selecting Dob: 
+2026-05-22 19:56:19 INFO  pageObjects.RegistrationFormPage - Selecting checkboxes
+2026-05-22 19:56:20 INFO  pageObjects.RegistrationFormPage - Entering address
+2026-05-22 19:56:37 INFO  pageObjects.HomePage - Clicking on logout......
+2026-05-22 19:56:40 INFO  pageObjects.LoginPage - Verifying Login form visible........
+2026-05-22 19:56:40 INFO  stepDefinitions.LoginPageSteps - Verifying Login page
+2026-05-22 19:56:40 INFO  pageObjects.LoginPage - Verifying Login form visible........
+2026-05-22 19:56:41 INFO  stepDefinitions.SignupPageSteps - clicking on Login
+2026-05-22 19:56:45 INFO  stepDefinitions.Hooks - Test Passed:Login user with different Credentials
+2026-05-22 19:56:45 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 19:56:45 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@750ed637
+2026-05-22 19:56:45 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 19:56:49 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 19:56:49 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 19:56:49 INFO  stepDefinitions.HomePageSteps - Clicking on Signup
+2026-05-22 19:56:49 INFO  pageObjects.HomePage - Clicking on Signup
+2026-05-22 19:56:51 INFO  stepDefinitions.LoginPageSteps - Verifying Login page
+2026-05-22 19:56:51 INFO  pageObjects.LoginPage - Verifying Login form visible........
+2026-05-22 19:56:51 INFO  stepDefinitions.SignupPageSteps - clicking on Login
+2026-05-22 19:56:53 INFO  stepDefinitions.Hooks - Test Passed:Login user with different Credentials
+2026-05-22 19:56:53 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 19:56:53 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@6e243175
+2026-05-22 19:56:53 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 19:56:58 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 19:56:58 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 19:56:58 INFO  stepDefinitions.HomePageSteps - Clicking on Signup
+2026-05-22 19:56:58 INFO  pageObjects.HomePage - Clicking on Signup
+2026-05-22 19:57:00 INFO  pageObjects.SignupLoginPage - Entering Name and Email for Signup
+2026-05-22 19:57:00 INFO  pageObjects.SignupLoginPage - Clicking on Signup button 
+2026-05-22 19:57:02 INFO  pageObjects.RegistrationFormPage - Selecting title: Mr
+2026-05-22 19:57:02 INFO  pageObjects.RegistrationFormPage - Enter password
+2026-05-22 19:57:02 INFO  pageObjects.RegistrationFormPage - selecting Dob: 
+2026-05-22 19:57:03 INFO  pageObjects.RegistrationFormPage - selecting Dob: 
+2026-05-22 19:57:03 INFO  pageObjects.RegistrationFormPage - selecting Dob: 
+2026-05-22 19:57:03 INFO  pageObjects.RegistrationFormPage - Selecting checkboxes
+2026-05-22 19:57:04 INFO  pageObjects.RegistrationFormPage - Entering address
+2026-05-22 19:57:21 INFO  pageObjects.HomePage - Clicking on logout......
+2026-05-22 19:57:23 INFO  pageObjects.LoginPage - Verifying Login form visible........
+2026-05-22 19:57:23 INFO  stepDefinitions.LoginPageSteps - Verifying Login page
+2026-05-22 19:57:23 INFO  pageObjects.LoginPage - Verifying Login form visible........
+2026-05-22 19:57:24 INFO  stepDefinitions.SignupPageSteps - clicking on Login
+2026-05-22 19:57:29 INFO  stepDefinitions.HomePageSteps - Clicking on logout
+2026-05-22 19:57:29 INFO  pageObjects.HomePage - Clicking on logout......
+2026-05-22 19:57:31 INFO  stepDefinitions.Hooks - Test Passed:Logout user successfully
+2026-05-22 19:57:31 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 20:01:29 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-22 20:01:29 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 20:01:35 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 20:01:35 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 20:01:35 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-22 20:01:35 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-22 20:01:38 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-22 20:01:38 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-22 20:01:38 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-22 20:01:38 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-22 20:01:38 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-22 20:01:41 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-22 20:01:41 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-22 20:01:41 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-22 20:01:41 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-22 20:01:41 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-22 20:01:41 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-22 20:01:42 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-22 20:01:42 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-22 20:01:42 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 20:01:42 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3a4aadf8
+2026-05-22 20:01:42 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 20:01:46 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 20:01:46 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 20:02:15 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-22 20:02:15 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 20:02:22 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 20:02:22 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 20:02:22 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-22 20:02:22 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-22 20:02:25 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-22 20:02:25 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-22 20:02:25 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-22 20:02:25 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-22 20:02:25 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-22 20:02:27 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-22 20:02:27 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-22 20:02:27 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-22 20:02:27 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-22 20:02:28 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-22 20:02:28 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-22 20:02:28 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-22 20:02:28 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-22 20:02:28 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 20:02:28 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7a682d35
+2026-05-22 20:02:28 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 20:02:32 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 20:02:32 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 20:02:32 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-22 20:02:32 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-22 20:02:34 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-22 20:02:34 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-22 20:02:36 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-22 20:02:36 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-22 20:02:36 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-22 20:02:37 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-22 20:02:37 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-22 20:02:37 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-22 20:02:37 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 20:02:37 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@310a7859
+2026-05-22 20:02:37 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 20:02:41 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 20:02:41 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 20:02:41 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-22 20:02:41 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-22 20:02:43 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-22 20:02:43 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-22 20:02:47 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-22 20:02:47 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-22 20:02:47 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-22 20:02:47 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-22 20:02:47 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-22 20:02:47 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 20:02:48 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@265c1a7c
+2026-05-22 20:02:48 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 20:02:51 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 20:02:51 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 20:02:52 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-22 20:02:52 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-22 20:02:53 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-22 20:02:53 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-22 20:02:56 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-22 20:02:56 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-22 20:02:57 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-22 20:02:57 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-22 20:02:57 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-22 20:02:57 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-22 20:02:57 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 20:02:57 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@33e4b9c4
+2026-05-22 20:02:57 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 20:03:01 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 20:03:01 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 20:03:01 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-22 20:03:01 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-22 20:03:04 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-22 20:03:05 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-22 20:03:05 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-22 20:03:05 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-22 20:03:06 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-22 20:03:06 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Verifying both products are added
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Total products in cart: 2
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Verifying prices quantity and total
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Product Items: https://automationexercise.com/get_product_picture/1
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Product Names: Blue Top
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Price: 500
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Expected Total: 500
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Actual Total: 500
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Product Items: https://automationexercise.com/get_product_picture/2
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Product Names: Men Tshirt
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Price: 400
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Expected Total: 400
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Actual Total: 400
+2026-05-22 20:03:08 INFO  pageObjects.CartPage - Prices, quantity and total verified successfully
+2026-05-22 20:03:08 INFO  stepDefinitions.Hooks - Test Passed:Verify Add Products in Cart
+2026-05-22 20:03:08 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-22 20:03:09 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@21dea711
+2026-05-22 20:03:09 INFO  stepDefinitions.Hooks - Test started
+2026-05-22 20:03:13 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-22 20:03:13 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-22 20:03:13 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-22 20:03:14 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-22 20:03:14 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-22 20:03:15 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-22 20:03:15 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-22 20:03:15 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-22 20:03:15 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-22 20:03:15 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-22 20:03:15 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-22 20:03:15 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-22 20:03:16 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-22 20:03:18 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-22 20:03:18 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-22 20:03:18 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-22 20:03:18 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-22 20:03:18 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-22 20:03:18 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:12:10 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-24 17:12:10 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:12:24 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:12:24 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:12:25 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:12:25 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:12:25 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:12:25 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:12:25 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-24 17:12:25 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-24 17:12:25 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-24 17:12:27 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-24 17:12:27 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:12:27 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:12:27 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:12:27 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:12:28 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:12:28 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:12:28 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-24 17:12:28 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:12:28 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@47829d6d
+2026-05-24 17:12:28 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:12:56 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:12:56 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:12:56 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:12:56 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:12:57 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:12:57 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:13:08 ERROR stepDefinitions.Hooks - Test Failed: Verify Search Product functionality
+2026-05-24 17:13:08 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:13:08 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@6ee88e21
+2026-05-24 17:13:08 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:13:14 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:13:14 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:13:14 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:13:14 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:13:14 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:13:14 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:13:25 ERROR stepDefinitions.Hooks - Test Failed: Verify Search Product functionality
+2026-05-24 17:13:25 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:13:25 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@130cfc47
+2026-05-24 17:13:25 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:13:31 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:13:31 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:13:31 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:13:31 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:13:31 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:13:31 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:13:42 ERROR stepDefinitions.Hooks - Test Failed: Verify Search Product functionality
+2026-05-24 17:13:42 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:13:44 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@1894fa9f
+2026-05-24 17:13:44 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:13:49 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:13:49 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:13:49 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:13:49 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:13:50 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-24 17:13:50 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-24 17:13:50 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-24 17:13:52 WARN  pageObjects.ProductsPage - Click failed for locator: By.cssSelector: [class='btn btn-success close-modal btn-block'] - Falling back to JS click
+2026-05-24 17:13:52 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-24 17:13:52 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-24 17:13:52 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-24 17:13:54 WARN  pageObjects.ProductsPage - Click failed for locator: By.cssSelector: [class='text-center'] [href='/view_cart'] - Falling back to JS click
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Verifying both products are added
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Total products in cart: 2
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Verifying prices quantity and total
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Product Items: https://automationexercise.com/get_product_picture/1
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Product Names: Blue Top
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Price: 500
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Expected Total: 500
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Actual Total: 500
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Product Items: https://automationexercise.com/get_product_picture/2
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Product Names: Men Tshirt
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Price: 400
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Expected Total: 400
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Actual Total: 400
+2026-05-24 17:13:56 INFO  pageObjects.CartPage - Prices, quantity and total verified successfully
+2026-05-24 17:13:56 INFO  stepDefinitions.Hooks - Test Passed:Verify Add Products in Cart
+2026-05-24 17:13:56 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:13:56 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@2cd3fc29
+2026-05-24 17:13:56 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:14:01 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:14:01 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:16:02 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@24a298a6
+2026-05-24 17:16:02 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:16:10 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:16:10 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:16:10 INFO  stepDefinitions.TestCasesPageSteps - Clicking on TesCases button
+2026-05-24 17:16:10 INFO  pageObjects.TestCasesPage - Clicking on TestCases
+2026-05-24 17:16:11 INFO  stepDefinitions.TestCasesPageSteps - Verifying TestCases homepage and url
+2026-05-24 17:16:11 INFO  pageObjects.TestCasesPage - Verifying Testcase Page
+2026-05-24 17:16:21 ERROR pageObjects.TestCasesPage - Element not visible: By.xpath: //h2[@class='title text-center']/b
+2026-05-24 17:16:21 ERROR stepDefinitions.Hooks - Test Failed: Verify Test Cases Page
+2026-05-24 17:16:22 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:19:42 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@24a298a6
+2026-05-24 17:19:42 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:19:49 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:19:49 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:19:49 INFO  stepDefinitions.TestCasesPageSteps - Clicking on TesCases button
+2026-05-24 17:19:49 INFO  pageObjects.TestCasesPage - Clicking on TestCases
+2026-05-24 17:19:50 INFO  stepDefinitions.TestCasesPageSteps - Verifying TestCases homepage and url
+2026-05-24 17:19:50 INFO  pageObjects.TestCasesPage - Verifying Testcase Page
+2026-05-24 17:20:00 ERROR pageObjects.TestCasesPage - Element not visible: By.xpath: //h2[@class='title text-center']/b
+2026-05-24 17:20:01 ERROR stepDefinitions.Hooks - Test Failed: Verify Test Cases Page
+2026-05-24 17:20:01 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:22:20 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-24 17:22:20 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:22:28 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:22:28 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:22:28 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:22:28 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:22:28 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:22:28 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:22:29 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-24 17:22:29 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-24 17:22:29 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-24 17:22:31 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-24 17:22:31 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:22:31 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:22:31 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:22:31 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:22:31 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:22:31 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:22:31 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-24 17:22:31 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:22:32 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7a682d35
+2026-05-24 17:22:32 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:22:37 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:22:37 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:22:37 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:22:37 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:22:38 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:22:38 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:22:45 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:22:45 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:22:46 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:22:46 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-24 17:22:46 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-24 17:22:46 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:22:46 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:22:47 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@443a53df
+2026-05-24 17:22:47 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:22:50 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:22:50 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:22:50 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:22:50 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:22:54 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:22:54 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:23:39 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-24 17:23:39 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-24 17:23:39 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-24 17:23:39 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-24 17:23:39 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:23:39 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:23:39 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5d1d9d73
+2026-05-24 17:23:39 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:23:45 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:23:45 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:23:45 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:23:45 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:23:45 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:23:45 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:23:50 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:23:50 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:23:50 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:23:50 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-24 17:23:50 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-24 17:23:50 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-24 17:23:50 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-24 17:23:50 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-24 17:23:50 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-24 17:23:51 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-24 17:23:51 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-24 17:23:51 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-24 17:23:51 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-24 17:23:51 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-24 17:23:51 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-24 17:23:51 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:23:51 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:23:51 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@70d4f672
+2026-05-24 17:23:51 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:23:56 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:23:56 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:23:56 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:23:56 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:23:56 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-24 17:23:56 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-24 17:23:56 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-24 17:24:01 WARN  pageObjects.ProductsPage - Click failed for locator: By.cssSelector: [class='btn btn-success close-modal btn-block'] - Falling back to JS click
+2026-05-24 17:24:12 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-24 17:24:12 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:24:12 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@117b2cc6
+2026-05-24 17:24:12 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:24:20 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:24:20 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:24:20 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-24 17:24:22 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-24 17:24:22 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:24:22 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:24:22 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:24:22 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:24:22 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:24:22 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:24:22 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-24 17:24:23 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-24 17:24:23 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-24 17:24:24 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-24 17:24:24 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-24 17:24:25 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-24 17:24:25 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-24 17:24:25 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-24 17:24:25 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:24:44 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-24 17:24:44 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:24:54 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:24:54 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:24:54 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:24:54 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:24:57 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:24:57 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:24:57 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-24 17:24:57 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-24 17:24:57 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-24 17:24:58 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-24 17:24:58 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:24:59 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:24:59 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:24:59 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:24:59 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:24:59 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:24:59 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-24 17:24:59 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:25:00 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3a4aadf8
+2026-05-24 17:25:00 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:25:05 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:25:05 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:25:05 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:25:05 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:25:06 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:25:06 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:25:12 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:25:12 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:25:12 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:25:13 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-24 17:25:13 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-24 17:25:13 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:25:13 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:25:13 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@4e424582
+2026-05-24 17:25:13 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:25:18 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:25:18 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:25:19 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:25:19 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:25:19 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:25:19 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:25:26 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:25:26 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:25:26 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-24 17:25:27 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-24 17:25:27 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-24 17:25:27 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-24 17:25:27 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:25:27 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:25:27 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@76cdafa3
+2026-05-24 17:25:27 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:25:31 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:25:31 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:25:49 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-24 17:25:49 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:25:57 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:25:57 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:25:57 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:25:57 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:25:57 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:25:57 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:25:57 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-24 17:25:57 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-24 17:25:57 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-24 17:25:59 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-24 17:25:59 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:26:00 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:26:00 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:26:00 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:26:00 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:26:00 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:26:00 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-24 17:26:00 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:26:00 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@3a4aadf8
+2026-05-24 17:26:00 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:26:04 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:26:04 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:26:04 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:26:04 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:26:04 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:26:04 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:26:34 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-24 17:26:34 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:26:42 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:26:42 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:26:42 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:26:42 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:26:42 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:26:42 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:26:42 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-24 17:26:42 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-24 17:26:42 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-24 17:26:44 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-24 17:26:44 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:26:44 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:26:44 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:26:44 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:26:44 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:26:45 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:26:45 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-24 17:26:45 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:26:45 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7a682d35
+2026-05-24 17:26:45 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:26:48 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:26:48 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:27:16 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-24 17:27:16 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:27:23 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:27:23 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:27:23 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:27:23 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:27:23 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:27:23 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:27:24 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-24 17:27:24 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-24 17:27:24 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-24 17:27:26 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-24 17:27:26 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:27:26 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:27:26 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:27:26 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:27:26 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:27:26 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:27:26 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-24 17:27:26 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:27:27 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7a682d35
+2026-05-24 17:27:27 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:27:32 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:27:32 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:27:58 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-24 17:27:58 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:28:03 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:28:03 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:28:03 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:28:03 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:28:08 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:28:08 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:28:08 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-24 17:28:08 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-24 17:28:08 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-24 17:28:09 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-24 17:28:09 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:28:10 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:28:10 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:28:10 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:28:10 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:28:10 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:28:10 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-24 17:28:10 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:28:11 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7a682d35
+2026-05-24 17:28:11 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:28:16 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:28:16 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:28:16 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:28:16 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:28:16 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:28:16 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:28:25 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:28:25 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:28:25 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:28:25 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-24 17:28:25 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-24 17:28:25 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:28:25 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:28:26 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7135ce0a
+2026-05-24 17:28:26 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:28:31 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:28:31 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:28:31 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:28:31 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:28:31 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:28:31 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:28:39 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:28:39 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:28:39 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-24 17:28:40 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-24 17:28:40 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-24 17:28:40 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-24 17:28:40 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:28:40 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:28:41 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@66f5b8fe
+2026-05-24 17:28:41 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:28:45 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:28:45 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:28:45 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:28:45 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:28:46 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:28:46 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:28:51 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:28:51 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:28:51 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-24 17:28:52 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-24 17:28:52 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-24 17:28:52 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-24 17:28:52 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:28:52 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:28:52 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@1e56bc9b
+2026-05-24 17:28:52 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:28:58 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:28:58 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:28:58 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:28:58 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:28:58 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-24 17:28:58 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-24 17:28:58 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-24 17:29:03 WARN  pageObjects.ProductsPage - Click failed for locator: By.cssSelector: [class='btn btn-success close-modal btn-block'] - Falling back to JS click
+2026-05-24 17:29:14 ERROR stepDefinitions.Hooks - Test Failed: Verify Add Products in Cart
+2026-05-24 17:29:14 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:29:14 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@4af12a63
+2026-05-24 17:29:14 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:29:19 ERROR stepDefinitions.Hooks - Test Failed: Verify Product quantity in Cart
+2026-05-24 17:29:36 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@5f404594
+2026-05-24 17:29:36 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:29:43 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:29:43 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:29:43 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:29:43 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:29:44 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:29:44 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:29:44 INFO  stepDefinitions.ProductsPageSteps - Verifying Products list
+2026-05-24 17:29:44 INFO  pageObjects.ProductsPage - Verifying Products list is visible
+2026-05-24 17:29:44 INFO  pageObjects.ProductsPage - Clicking on view product: 1
+2026-05-24 17:29:47 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/1
+2026-05-24 17:29:47 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:29:47 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:29:47 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:29:47 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:29:47 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:29:47 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:29:47 INFO  stepDefinitions.Hooks - Test Passed:Verify all Products and product detail page
+2026-05-24 17:29:47 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:29:48 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@7a682d35
+2026-05-24 17:29:48 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:29:53 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:29:53 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:29:53 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:29:53 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:29:53 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:29:53 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:30:02 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:30:02 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:30:02 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:30:02 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-24 17:30:02 INFO  pageObjects.ProductsPage - Total matched products: 1
+2026-05-24 17:30:02 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:30:02 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:30:02 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@12d40609
+2026-05-24 17:30:02 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:30:30 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:30:30 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:30:30 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:30:30 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:30:31 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:30:31 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:30:40 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: blue top
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: winter top
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: summer white top
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: madame top for women
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: fancy green top
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: sleeves printed top - white
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: half sleeves top schiffli detailing - pink
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: frozen tops for kids
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: full sleeves top cherry - pink
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: printed off shoulder top - white
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: little girls mr. panda shirt
+2026-05-24 17:30:40 WARN  pageObjects.ProductsPage - Irrelevant product found: little girls mr. panda shirt
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: colour blocked shirt – sky blue
+2026-05-24 17:30:40 WARN  pageObjects.ProductsPage - Irrelevant product found: colour blocked shirt – sky blue
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Product Found: lace top for women
+2026-05-24 17:30:40 INFO  pageObjects.ProductsPage - Total matched products: 12
+2026-05-24 17:30:40 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:30:40 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:30:41 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@8c43966
+2026-05-24 17:30:41 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:30:45 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:30:45 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:30:45 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:30:45 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:30:48 INFO  stepDefinitions.ProductsPageSteps - Verifying all Products page
+2026-05-24 17:30:48 INFO  pageObjects.ProductsPage - Verifying Products page visible
+2026-05-24 17:31:32 INFO  stepDefinitions.ProductsPageSteps - Verifying search product test
+2026-05-24 17:31:32 INFO  pageObjects.ProductsPage - Verifying search product text
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Verifying product names
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: sleeveless dress
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: stylish dress
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: sleeves top and short - blue & pink
+2026-05-24 17:31:33 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeves top and short - blue & pink
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn patch gown - pink
+2026-05-24 17:31:33 WARN  pageObjects.ProductsPage - Irrelevant product found: sleeveless unicorn patch gown - pink
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: cotton mull embroidered dress
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: blue cotton indie mickey dress
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: long maxi tulle fancy dress up outfits -pink
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: sleeveless unicorn print fit & flare net dress - multi
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Product Found: rose pink embroidered maxi dress
+2026-05-24 17:31:33 INFO  pageObjects.ProductsPage - Total matched products: 7
+2026-05-24 17:31:33 INFO  stepDefinitions.Hooks - Test Passed:Verify Search Product functionality
+2026-05-24 17:31:33 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:31:33 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@70d4f672
+2026-05-24 17:31:33 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:31:38 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:31:38 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:31:38 INFO  stepDefinitions.ProductsPageSteps - Clicking on Products
+2026-05-24 17:31:38 INFO  pageObjects.ProductsPage - Clicking on Products
+2026-05-24 17:31:41 INFO  pageObjects.ProductsPage - Hovering on product: 0
+2026-05-24 17:31:42 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-24 17:31:42 INFO  pageObjects.ProductsPage - Clicking on first product continue shopping
+2026-05-24 17:31:42 INFO  pageObjects.ProductsPage - Hovering on product: 1
+2026-05-24 17:31:42 INFO  pageObjects.ProductsPage - Clicking on products Add Cart
+2026-05-24 17:31:43 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-24 17:32:27 INFO  pageObjects.CartPage - Verifying both products are added
+2026-05-24 17:32:27 INFO  pageObjects.CartPage - Total products in cart: 2
+2026-05-24 17:32:27 INFO  pageObjects.CartPage - Verifying prices quantity and total
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Product Items: https://automationexercise.com/get_product_picture/1
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Product Names: Blue Top
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Price: 500
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Expected Total: 500
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Actual Total: 500
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Product Items: https://automationexercise.com/get_product_picture/2
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Product Names: Men Tshirt
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Price: 400
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Quantity: 1
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Expected Total: 400
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Actual Total: 400
+2026-05-24 17:32:28 INFO  pageObjects.CartPage - Prices, quantity and total verified successfully
+2026-05-24 17:32:28 INFO  stepDefinitions.Hooks - Test Passed:Verify Add Products in Cart
+2026-05-24 17:32:28 INFO  stepDefinitions.Hooks - Test Finished
+2026-05-24 17:32:28 INFO  stepDefinitions.Hooks - Hooks received BaseClass instance: stepDefinitions.BaseClass@550c973e
+2026-05-24 17:32:28 INFO  stepDefinitions.Hooks - Test started
+2026-05-24 17:32:33 INFO  stepDefinitions.HomePageSteps - Verifying Home Page Logo is visible
+2026-05-24 17:32:33 INFO  pageObjects.HomePage - Verifying logo visible
+2026-05-24 17:32:33 INFO  pageObjects.ProductsPage - Clicking on view product: 5
+2026-05-24 17:32:36 INFO  stepDefinitions.ProductsPageSteps - Product detail page URLhttps://automationexercise.com/product_details/5
+2026-05-24 17:32:36 INFO  pageObjects.ProductsPage - Verifying Product name
+2026-05-24 17:32:36 INFO  pageObjects.ProductsPage - Verifying Category
+2026-05-24 17:32:36 INFO  pageObjects.ProductsPage - Verifying Price
+2026-05-24 17:32:36 INFO  pageObjects.ProductsPage - Verifying Availability
+2026-05-24 17:32:36 INFO  pageObjects.ProductsPage - Verifying Condition is visible
+2026-05-24 17:32:36 INFO  pageObjects.ProductsPage - Verifying brand
+2026-05-24 17:32:36 INFO  pageObjects.ProductsPage - Entering quantity: 4
+2026-05-24 17:32:36 INFO  pageObjects.ProductsPage - Clicking on Add cart
+2026-05-24 17:32:37 INFO  pageObjects.ProductsPage - Clicking on mouse hover view cart
+2026-05-24 17:32:38 INFO  stepDefinitions.CartPageSteps - Verifying product quantity in cart
+2026-05-24 17:32:38 INFO  pageObjects.CartPage - Getting cart quantity
+2026-05-24 17:32:38 INFO  stepDefinitions.CartPageSteps - Expected Quantity: 4
+2026-05-24 17:32:38 INFO  stepDefinitions.CartPageSteps - Actual Quantity: 4
+2026-05-24 17:32:38 INFO  stepDefinitions.Hooks - Test Passed:Verify Product quantity in Cart
+2026-05-24 17:32:38 INFO  stepDefinitions.Hooks - Test Finished
