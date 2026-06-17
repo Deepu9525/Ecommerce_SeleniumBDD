@@ -2,10 +2,12 @@ package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 import utilities.LoggerUtil;
 
 import org.apache.logging.log4j.Logger;
+import utilities.TestDataRepo;
 
 public class CartPageSteps {
     BaseClass baseClass;
@@ -37,6 +39,31 @@ public class CartPageSteps {
 
         Assert.assertEquals(expectedQuantity, actualQuantity);
     }
+
+    @Then("I Verify Address Details")
+    public void iVerifyAddressDetails() {
+       baseClass.cartPage.verifyAddressDetailsInCartPage();
+    }
+
+    @And("I Verify Review your Order section")
+    public void iVerifyReviewYourOrderSection() {
+       log.info("Verifying Review order section");
+       Assert.assertTrue(baseClass.cartPage.verifyReviewOrderSection());
+    }
+
+    @When("I Enter order comment")
+    public void iEnterOrderComment() {
+        log.info("Entering the comment order");
+        String commentText = TestDataRepo.getOrderCommentData().get("comment").asText();
+        baseClass.cartPage.enterCommentForOrder(commentText);
+    }
+
+    @And("I Click on Place Order button")
+    public void iClickOnPlaceOrderButton() {
+        log.info("Clicking the Place order button");
+        baseClass.cartPage.clickPlaceOrderButton();
+    }
+
 }
 
 

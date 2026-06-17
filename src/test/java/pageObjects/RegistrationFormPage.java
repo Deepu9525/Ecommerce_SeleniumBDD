@@ -6,8 +6,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationFormPage extends BasePage{
 
-    //Logger log = LoggerUtil.getLogger(RegistrationPage.class);
-
     //Constructor
     public RegistrationFormPage(WebDriver driver){
         super(driver);
@@ -119,13 +117,26 @@ public class RegistrationFormPage extends BasePage{
         type(city, cty);
         type(zipCode, zpCode);
         type(mobileNum, mobile);
-        selectCountry(countryName);
+        selectCountryIfRequired(countryName);
 
     }
 
-    public void selectCountry(String countryName){
+    public void selectCountryIfRequired(String countryName){
         Select countryDropdown = new Select(waitForVisibility(country));
-        countryDropdown.selectByVisibleText(countryName);
+        //countryDropdown.selectByVisibleText(countryName);
+
+        String selectedCountry = countryDropdown.getFirstSelectedOption().getText().trim();
+
+        log.info("Currently selected country: " + selectedCountry);
+
+        if (!selectedCountry.equalsIgnoreCase(countryName)){
+
+            log.info("Selecting country: " + countryName);
+            countryDropdown.selectByVisibleText(countryName);
+
+        }else {
+            log.info("Country already selected. Skipping selection.");
+        }
     }
 
     public void clickCreateAccount(){
@@ -159,4 +170,27 @@ public class RegistrationFormPage extends BasePage{
     public String getAccountDeletedText(){
         return waitForVisibility(accountDeleted).getText();
     }
+
+    public boolean isAccountCreatedPageDisplayed(){
+        log.info("Verifying Account Created Page displayed");
+
+        boolean urlCheck = getCurrentUrl().contains("account_created");
+
+        log.info("Checking URL after Account created: " + urlCheck);
+        log.info("Current Url: " + getCurrentUrl());
+
+        return urlCheck;
+    }
+
+    public boolean isHomePageDisplayedAfterContinue(){
+        log.info("Verifying Home Page displayed after clicking continue");
+
+        boolean homePageDisplayed = getCurrentUrl().equals("https://automationexercise.com/");
+
+        log.info("Checking URL after clicking Continue: " + homePageDisplayed);
+        log.info("Current Url: " + getCurrentUrl());
+
+        return homePageDisplayed;
+    }
+
 }

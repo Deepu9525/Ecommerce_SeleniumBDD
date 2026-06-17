@@ -17,7 +17,7 @@ Feature: User Registration
     When I Click on the Continue button
 
     Then I Verify the Logged in UserName on the Home Screen
-    When I Click on the Delete Account on the Home Screen
+    When I Click on the Delete Account
 
     Then I Verify the Account Deleted message
     And I Verify the Continue button is displayed on the Signup Login Screen

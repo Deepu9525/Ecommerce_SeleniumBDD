@@ -52,13 +52,18 @@ public class RegistrationPageSteps {
                 data.get("city").asText(),
                 data.get("zipCode").asText(),
                 data.get("mobileNum").asText(),
-                data.get("countryName").asText()
+                data.get("countryName").asText() //default India
+
         );
     }
 
     @And("I Click on the Create Account on the Signup Login Screen")
     public void iClickOnTheCreateAccountOnTheSignupLoginScreen() {
         baseClass.registrationPage.clickCreateAccount();
+        //baseClass.registrationPage.closeBrowserPopup();
+        log.info("After Create Account");
+       baseClass.registrationPage.isAccountCreatedPageDisplayed();
+
     }
 
     @Then("I Verify the Account Created message on the Signup Login Screen")
@@ -71,6 +76,9 @@ public class RegistrationPageSteps {
     @When("I Click on the Continue button")
     public void iClickOnTheContinueButton() {
         baseClass.registrationPage.clickContinue();
+        log.info("Verifying Home Page is displayed after clicking continue");
+
+        Assert.assertTrue(baseClass.registrationPage.isHomePageDisplayedAfterContinue());
     }
 
     @And("I Verify the Continue button is displayed on the Signup Login Screen")
@@ -86,8 +94,8 @@ public class RegistrationPageSteps {
         Assert.assertTrue("Excepted username not found:" +actualText,actualText.contains(exceptedText));
     }
 
-    @And("I Click on the Delete Account on the Home Screen")
-    public void iClickOnTheDeleteAccountOnTheHomeScreen() {
+    @And("I Click on the Delete Account")
+    public void iClickOnTheDeleteAccount() {
         baseClass.registrationPage.clickDeleteAccount();
     }
 

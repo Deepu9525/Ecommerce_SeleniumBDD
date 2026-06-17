@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import io.cucumber.java.PendingException;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import utilities.LoggerUtil;

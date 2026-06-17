@@ -14,5 +14,7 @@ public class BaseClass {
     public TestCasesPage testCasesPage;
     public ProductsPage productsPage;
     public CartPage cartPage;
+    public CheckoutPage checkoutPage;
+    public PaymentPage paymentPage;
 }
 

@@ -1,5 +1,6 @@
 package utilities;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -11,6 +12,8 @@ import java.util.Map;
 
 public class DriverFactory {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
+    Logger log = LoggerUtil.getLogger(DriverFactory.class);
 
     public static void initDriver(String browser){
         System.out.println("Launching browser: " + browser);
@@ -24,11 +27,19 @@ public class DriverFactory {
 
                 Map<String, Object> prefs = new HashMap<>();
                 // Disable notifications & ads
-                prefs.put("profile.default_content_setting_values.notifications", 2);
+
+                prefs.put("credentials_enable_service", false);
+                prefs.put("profile.password_manager_enabled", false);
+
+                // Disable Address Save popup
+                prefs.put("autofill.profile_enabled", false);
+
+
+                System.out.println("Disabling Password Save Popup");
+                System.out.println("Disabling Address Save Popup");
+                System.out.println("Disabling Credit Card Save Popup");
 
                 options.setExperimentalOption("prefs", prefs);
-                options.addArguments("--disable-notifications");
-                options.addArguments("--disable-save-password-bubble");
 
                 driver.set(new ChromeDriver(options));
 

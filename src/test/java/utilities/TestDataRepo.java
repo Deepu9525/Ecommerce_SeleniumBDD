@@ -24,4 +24,12 @@ public class TestDataRepo {
         return testData.get("ExistingUser");
     }
 
+    public static JsonNode getOrderCommentData(){
+        return testData.get("orderComment");
+    }
+
+    public static JsonNode getPaymentDetailsData(){
+        return testData.get("paymentDetails");
+    }
+
 }

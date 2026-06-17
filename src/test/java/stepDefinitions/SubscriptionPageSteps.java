@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import io.cucumber.java.PendingException;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import utilities.LoggerUtil;
@@ -52,10 +51,10 @@ public class SubscriptionPageSteps {
 
     }
 
-
     @When("I Click on Cart button")
     public void iClickOnCartButton() {
        log.info("Clicking on cart button");
        baseClass.homePage.clickCartButton();
     }
+
 }

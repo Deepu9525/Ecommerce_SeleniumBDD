@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import pageObjects.*;
 import utilities.*;
@@ -42,6 +43,8 @@ public class Hooks{
         baseClass.testCasesPage = new TestCasesPage(baseClass.driver);
         baseClass.productsPage = new ProductsPage(baseClass.driver);
         baseClass.cartPage = new CartPage(baseClass.driver);
+        baseClass.checkoutPage = new CheckoutPage(baseClass.driver);
+        baseClass.paymentPage = new PaymentPage(baseClass.driver);
     }
 
     @After
@@ -57,5 +60,18 @@ public class Hooks{
         log.info("Test Finished");
         DriverFactory.quitDriver();
     }
+
+    //@BeforeStep
+//    public void handleAds() {
+//        log.info("========== BEFORE STEP AD HANDLER ==========");
+//        try {
+//            if (DriverFactory.getDriver() != null) {
+//                new BasePage(DriverFactory.getDriver())
+//                        .closeAdsIfPresent();
+//            }
+//        } catch (Exception e) {
+//            log.error("Ad handler failed", e);
+//        }
+//    }
 
 }

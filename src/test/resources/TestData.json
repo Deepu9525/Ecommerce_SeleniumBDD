@@ -17,5 +17,16 @@
     "zipCode": "587699",
     "mobileNum": "90785698905",
     "countryName": "India"
-  }
+  },
+    "orderComment": {
+      "comment": "Deliver properly"
+    },
+    "paymentDetails": {
+      "cardName": "Sunny",
+      "cardNum": "4242424242424242",
+      "cvc": "123",
+      "month": "12",
+      "year": "2029"
+    }
+
 }
