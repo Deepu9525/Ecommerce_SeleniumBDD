@@ -83,6 +83,80 @@ public class BasePage {
         return driver.getCurrentUrl();
     }
 
+    public void handleIframePopup() {
+
+        List<WebElement> iframes =
+                driver.findElements(By.tagName("iframe"));
+
+        log.info("Total Frames = " + iframes.size());
+
+        for (WebElement frame : iframes) {
+
+            try {
+
+                driver.switchTo().defaultContent();
+                driver.switchTo().frame(frame);
+
+                List<WebElement> closeBtns =
+                        driver.findElements(
+                                By.id("dismiss-button-element"));
+
+                log.info("dismiss-button-element count = " + closeBtns.size());
+
+                if (!closeBtns.isEmpty()) {
+
+                    log.info("Close button found");
+
+                    ((JavascriptExecutor) driver)
+                            .executeScript(
+                                    "arguments[0].click();",
+                                   closeBtns.get(0));
+
+                    log.info("Popup Closed");
+
+                    return;
+                }
+
+            } catch (Exception e) {
+
+                log.info("Frame skipped");
+
+            } finally {
+
+                driver.switchTo().defaultContent();
+            }
+        }
+
+        log.info("Popup not found in any frame");
+    }
+
+    public void handleGoogleVignette() {
+
+        try {
+
+            log.info("Current URL before checking vignette: " + driver.getCurrentUrl());
+
+            if (driver.getCurrentUrl().contains("google_vignette")) {
+
+                log.info("Google Vignette Detected");
+
+                driver.navigate().back();
+
+                wait.until(driver ->
+                        !driver.getCurrentUrl().contains("google_vignette"));
+
+                log.info("Current URL : " + driver.getCurrentUrl());
+
+            }else{
+
+                log.info("No Google Vignette Found");
+            }
+
+        } catch (Exception e) {
+
+            log.error("Error while handling Google Vignette", e);
+        }
+    }
 }
 
 

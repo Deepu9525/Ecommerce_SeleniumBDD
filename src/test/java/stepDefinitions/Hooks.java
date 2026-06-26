@@ -61,17 +61,11 @@ public class Hooks{
         DriverFactory.quitDriver();
     }
 
-    //@BeforeStep
-//    public void handleAds() {
-//        log.info("========== BEFORE STEP AD HANDLER ==========");
-//        try {
-//            if (DriverFactory.getDriver() != null) {
-//                new BasePage(DriverFactory.getDriver())
-//                        .closeAdsIfPresent();
-//            }
-//        } catch (Exception e) {
-//            log.error("Ad handler failed", e);
-//        }
-//    }
+    @BeforeStep
+    public void handleAds(){
+        log.info("========== BEFORE STEP AD HANDLER ==========");
+        new BasePage(DriverFactory.getDriver()).handleIframePopup();
+
+    }
 
 }

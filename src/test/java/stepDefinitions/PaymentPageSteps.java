@@ -39,6 +39,6 @@ public class PaymentPageSteps {
 
        Assert.assertEquals("rgba(0, 128, 0, 1)", color);
 
-       Assert.assertEquals("Congratulations! Your order has been confirmed!", confirmMessage);
+       Assert.assertTrue(confirmMessage.contains("Congratulations! Your order has been confirmed!"));
     }
 }

@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationFormPage extends BasePage{
@@ -152,7 +153,22 @@ public class RegistrationFormPage extends BasePage{
     }
 
     public void clickContinue(){
+        log.info("Before Click : " + driver.getCurrentUrl());
         click(continueButton);
+
+        log.info("After Click : " + driver.getCurrentUrl());
+        handleGoogleVignette();
+
+        if (driver.getCurrentUrl().contains("account_created")) {
+
+            log.info("Still on Account Created page. Clicking Continue again.");
+
+            click(continueButton);
+
+            wait.until(ExpectedConditions.urlToBe("https://automationexercise.com/"));
+        }
+
+        log.info("Final URL : " + driver.getCurrentUrl());
     }
 
     public String getLoggedInUserText(){
@@ -185,12 +201,23 @@ public class RegistrationFormPage extends BasePage{
     public boolean isHomePageDisplayedAfterContinue(){
         log.info("Verifying Home Page displayed after clicking continue");
 
-        boolean homePageDisplayed = getCurrentUrl().equals("https://automationexercise.com/");
+        try {
+            wait.until(ExpectedConditions.urlToBe("https://automationexercise.com/"));
+            return true;
+        }catch (Exception e) {
 
-        log.info("Checking URL after clicking Continue: " + homePageDisplayed);
-        log.info("Current Url: " + getCurrentUrl());
+            log.info("Current URL : " + driver.getCurrentUrl());
 
-        return homePageDisplayed;
+            return false;
+        }
+//
+//        boolean homePageDisplayed = getCurrentUrl().equals("https://automationexercise.com/");
+//
+//        log.info("Checking URL after clicking Continue: " + homePageDisplayed);
+//        log.info("Current Url: " + getCurrentUrl());
+//
+//        return homePageDisplayed;
+
     }
 
 }
