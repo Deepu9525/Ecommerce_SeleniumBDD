@@ -1,5 +1,6 @@
+@login @loginLogout
 Feature: Login and Logout
-
+@loginUser @sanity @regression
   Scenario Outline: Login user with different Credentials
     Given I Verify the Home Page Logo on the Home Screen
     When I Click on Signup and Login on the Home Screen
@@ -17,7 +18,7 @@ Feature: Login and Logout
     |Valid      |test123    |Logged in UserName is visible       |
     |Invalid    |test@123   |Your email or password is incorrect!|
 
-
+@logout @regression
   Scenario: Logout user successfully
      Given I Verify the Home Page Logo on the Home Screen
      When I Click on Signup and Login on the Home Screen

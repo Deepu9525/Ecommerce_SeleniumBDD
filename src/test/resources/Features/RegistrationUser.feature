@@ -1,5 +1,5 @@
 Feature: User Registration
-
+@register @sanity
   Scenario: Register New User Successfully and Delete Account
     Given I Verify the Home Page Logo on the Home Screen
     When I Click on Signup and Login on the Home Screen
@@ -24,7 +24,7 @@ Feature: User Registration
     And I Click on the Continue button
     Then I Verify the user is logged out on the Home Screen
 
-
+@sanity
   Scenario: Register with existing email
     Given I Verify the Home Page Logo on the Home Screen
     When I Click on Signup and Login on the Home Screen
