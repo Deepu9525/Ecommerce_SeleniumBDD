@@ -1,3 +1,4 @@
+@parallelExecution
 Feature: Place Order
   Scenario: Place Order Register While Checkout
     Given I Verify the Home Page Logo on the Home Screen

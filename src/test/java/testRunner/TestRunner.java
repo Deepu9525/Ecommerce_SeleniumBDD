@@ -6,14 +6,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features={"src/test/resources/Features/Login.feature", "src/test/resources/Features/RegistrationUser.feature"},
+        features={"src/test/resources/Features/"},
         glue={"stepDefinitions"},
-        dryRun = false,
+        //dryRun = false,
         monochrome = true,
         plugin = {"pretty",
                 "html:reports/cucumber-reports/cucumber.html",
                 "json:reports/cucumber-reports/cucumber.json"},
-        tags="@register and @sanity"
+        tags="@parallelExecution"
 )
 public class TestRunner {
 

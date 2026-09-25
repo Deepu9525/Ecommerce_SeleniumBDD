@@ -1,4 +1,4 @@
-@login @loginLogout
+@login @loginLogout @parallelExecution
 Feature: Login and Logout
 @loginUser @sanity @regression
   Scenario Outline: Login user with different Credentials

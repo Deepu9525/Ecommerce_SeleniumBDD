@@ -11,18 +11,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DriverFactory {
-    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-    Logger log = LoggerUtil.getLogger(DriverFactory.class);
+    private static final Logger log = LoggerUtil.getLogger(DriverFactory.class);
 
     public static void initDriver(String browser){
-        System.out.println("Launching browser: " + browser);
+        log.info("Launching browser: " + browser);
        if(browser == null){
            browser = "chrome"; //default
+           log.info("Starting browser: " + browser, Thread.currentThread().getName());
        }
 
        switch (browser.toLowerCase()){
             case "chrome":
+                log.info("Initializing Chrome browser");
                 ChromeOptions options = new ChromeOptions();
 
                 Map<String, Object> prefs = new HashMap<>();
@@ -34,10 +36,9 @@ public class DriverFactory {
                 // Disable Address Save popup
                 prefs.put("autofill.profile_enabled", false);
 
-
-                System.out.println("Disabling Password Save Popup");
-                System.out.println("Disabling Address Save Popup");
-                System.out.println("Disabling Credit Card Save Popup");
+                log.info("Disabling Password Save Popup");
+                log.info("Disabling Address Save Popup");
+                log.info("Disabling Credit Card Save Popup");
 
                 options.setExperimentalOption("prefs", prefs);
 
@@ -46,18 +47,23 @@ public class DriverFactory {
                 break;
 
             case "firefox":
+                log.info("Initializing Firefox browser");
                 driver.set(new FirefoxDriver());
                 break;
 
             case "edge":
+                log.info("Initializing edge browser");
                 driver.set(new EdgeDriver());
                 break;
 
             default:
+                log.error("Unsupported browser: {}", browser);
                 throw new IllegalArgumentException(("Browser not supported: ") + browser);
         }
 
         getDriver().manage().window().maximize();
+        log.info("Browser started successfully | Thread: {}",
+                Thread.currentThread().getName());
     }
 
     public static WebDriver getDriver(){
@@ -66,12 +72,13 @@ public class DriverFactory {
 
     public static void quitDriver(){
         if (getDriver() != null){
+            log.info("Closing browser | Thread: {}",
+                    Thread.currentThread().getName());
             getDriver().quit();
             driver.remove();
+            log.info("Browser closed successfully");
         }
-
     }
-
 }
 
 

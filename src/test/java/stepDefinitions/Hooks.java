@@ -26,6 +26,7 @@ public class Hooks{
 
         //baseClass.driver = new ChromeDriver(); ///this is before creating DriverFactory class
         String browser = System.getProperty("browser", ConfigReader.getBrowser()); // default chrome
+        log.info("Browser selected: {}", browser);
 
         DriverFactory.initDriver(browser);
         baseClass.driver = DriverFactory.getDriver();
