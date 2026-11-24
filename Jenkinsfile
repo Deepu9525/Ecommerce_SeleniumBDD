@@ -1,5 +1,13 @@
 pipeline {
     agent any
+    //Browser selection using Jenkins Pipeline parameters
+    parameters{
+        choice(
+                name: 'BROWSER',
+                choice: ['chrome', 'edge', 'firefox'],
+                description: 'Select browser for execution'
+        )
+    }
 
     tools {
         jdk 'JDK21'
