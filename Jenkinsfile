@@ -17,8 +17,14 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Executing Selenium tests'
-                bat 'mvn test'
-                junit 'target/surefire-reports/*.xml'
+                //bat 'mvn test'
+                //junit 'target/surefire-reports/*.xml'
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    bat 'mvn test'
+                }
+
+                junit testResults: 'target/surefire-reports/*.xml',
+                        allowEmptyResults: true
             }
         }
     }
