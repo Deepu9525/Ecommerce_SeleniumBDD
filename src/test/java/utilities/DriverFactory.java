@@ -16,11 +16,13 @@ public class DriverFactory {
     private static final Logger log = LoggerUtil.getLogger(DriverFactory.class);
 
     public static void initDriver(String browser){
-        log.info("Launching browser: " + browser);
-       if(browser == null){
-           browser = "chrome"; //default
-           log.info("Starting browser: " + browser, Thread.currentThread().getName());
+       if(browser == null || browser.isBlank()){
+           //browser = "chrome"; //default
+           //Get browser from VM arguments; use Chrome as the default browser
+           browser = System.getProperty("browser","chrome");
+           log.info("Starting browser: {} | Thread: " + browser, Thread.currentThread().getName());
        }
+       log.info("Launching browser: " + browser);
 
        switch (browser.toLowerCase()){
             case "chrome":

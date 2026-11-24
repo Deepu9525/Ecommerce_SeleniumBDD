@@ -28,7 +28,7 @@ pipeline {
                 //bat 'mvn test'
                 //junit 'target/surefire-reports/*.xml'
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
-                    bat 'mvn test'
+                    bat 'mvn test -Dbrowser=${params.BROWSER}'
                 }
 
                 junit testResults: 'target/surefire-reports/*.xml',
