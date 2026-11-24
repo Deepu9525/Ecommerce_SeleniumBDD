@@ -4,7 +4,7 @@ pipeline {
     parameters{
         choice(
                 name: 'BROWSER',
-                choice: ['chrome', 'edge', 'firefox'],
+                choices: ['chrome', 'edge', 'firefox'],
                 description: 'Select browser for execution'
         )
     }
