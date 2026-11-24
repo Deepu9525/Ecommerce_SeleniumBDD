@@ -18,6 +18,7 @@ pipeline {
             steps {
                 echo 'Executing Selenium tests'
                 bat 'mvn test'
+                junit 'target/surefire-reports/*.xml'
             }
         }
     }
